@@ -3,10 +3,10 @@
 	<head>
 	  <title>Psoriasis - About Psoriasis</title>
 	  <meta name="psoriasis"></meta>
-		<? include "include/header.php";	?>
+		<?php include "include/header.php";	?>
 	</head>
 	<body>
-		<? include "include/top.php";	?>
+		<?php include "include/top.php";	?>
 			  <div class="left_col">
     <h1>About Psoriasis</h1>
     <p><strong>Psoriasis</strong> is a chronic inflammatory disease of the skin affecting approximately 2% of the world's population.</p>
@@ -47,15 +47,15 @@ Approximately 10%-20% of people with <strong>psoriasis</strong> experience joint
       </div>
       <img src="/images/banner-left.png" class="left" />
       <div class="right-inside left">  
-        <? @include "products/body_care_kit.html"; ?>
-        <? @include "products/body_wash.html"; ?>
-        <? @include "products/hair_care_kit.html"; ?>
-        <? @include "products/scalp.html"; ?>
+        <?php @include "products/body_care_kit.html"; ?>
+        <?php @include "products/body_wash.html"; ?>
+        <?php @include "products/hair_care_kit.html"; ?>
+        <?php @include "products/scalp.html"; ?>
       </div>
       <img src="/images/banner-right.png" class="left" />
     </div>
   </div>
 
-		<? include "include/footer.php";	?>
+		<?php include "include/footer.php";	?>
 	</body>
 </html>
