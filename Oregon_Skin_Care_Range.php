@@ -35,14 +35,14 @@
       </div>
       <img src="/images/banner-left.png" class="left" />
       <div class="right-inside left">  
-        <? @include "products/body_care_kit.html"; ?>
-        <? @include "products/conditioner.html"; ?>
-        <? @include "products/shampoo.html"; ?>
-        <? @include "products/body_wash.html"; ?>
-        <? @include "products/hair_care_kit.html"; ?>
-        <? @include "products/maintenance_cream.html"; ?>
-        <? @include "products/scalp.html"; ?>
-        <? @include "products/serum.html"; ?>        
+        <?php @include "products/body_care_kit.html"; ?>
+        <?php @include "products/conditioner.html"; ?>
+        <?php @include "products/shampoo.html"; ?>
+        <?php @include "products/body_wash.html"; ?>
+        <?php @include "products/hair_care_kit.html"; ?>
+        <?php @include "products/maintenance_cream.html"; ?>
+        <?php @include "products/scalp.html"; ?>
+        <?php @include "products/serum.html"; ?>        
       </div>
       <img src="/images/banner-right.png" class="left" />
     </div>
