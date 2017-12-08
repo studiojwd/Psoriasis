@@ -3,10 +3,10 @@
 	<head>
 	  <title>Psoriasis - Oregon Skin Care Range</title>
 	  <meta name="psoriasis"></meta>
-		<? include "include/header.php";	?>
+		<?php include "include/header.php";	?>
 	</head>
 	<body>
-		<? include "include/top.php";	?>
+		<?php include "include/top.php";	?>
 			  <div class="left_col">
     <h1>Oregon Skin Care Range*</h1>
     <p>OREGON SKIN CARE RANGE range is a scientifically based cosmetic skincare range for <strong>psoriasis</strong>. <strong>psoriasis</strong> is a complex skin complaint and the OREGON SKIN CARE RANGE addresses the cosmetic causes of the condition in a natural and balanced manner.</p>
@@ -48,6 +48,6 @@
     </div>
   </div>
 
-		<? include "include/footer.php";	?>
+		<?php include "include/footer.php";	?>
 	</body>
 </html>

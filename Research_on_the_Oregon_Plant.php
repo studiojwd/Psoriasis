@@ -3,10 +3,10 @@
 	<head>
 	  <title>Psoriasis - Research on the Oregon Plant</title>
 	  <meta name="psoriasis"></meta>
-		<? include "include/header.php";	?>
+		<?php include "include/header.php";	?>
 	</head>
 	<body>
-		<? include "include/top.php";	?>
+		<?php include "include/top.php";	?>
 			  <div class="left_col">
     <h1>Research on the Oregon plant</h1>
     <p>OGR is a native plant of North America and has been extensively examined as a treatment for <strong>psoriasis</strong> in several published studies. These studies have found that compounds isolated from extracts of OGR possess inhibitory activity against Lipoxygenase (an enzyme involved in psoriatic skin cell production). </p>
@@ -61,20 +61,20 @@ The extract of the bark of Mahonia aquifolium is an inhibitor of keratinocyte gr
       </div>
       <img src="/images/banner-left.png" class="left" />
       <div class="right-inside left">  
-        <? @include "products/body_care_kit.html"; ?>
-        <? @include "products/conditioner.html"; ?>
-        <? @include "products/shampoo.html"; ?>
-        <? @include "products/body_wash.html"; ?>
-        <? @include "products/hair_care_kit.html"; ?>
-        <? @include "products/maintenance_cream.html"; ?>
-        <? @include "products/scalp.html"; ?>
-        <? @include "products/serum.html"; ?>        
+        <?php @include "products/body_care_kit.html"; ?>
+        <?php @include "products/conditioner.html"; ?>
+        <?php @include "products/shampoo.html"; ?>
+        <?php @include "products/body_wash.html"; ?>
+        <?php @include "products/hair_care_kit.html"; ?>
+        <?php @include "products/maintenance_cream.html"; ?>
+        <?php @include "products/scalp.html"; ?>
+        <?php @include "products/serum.html"; ?>        
       </div>
       <img src="/images/banner-right.png" class="left" />
     </div>
   </div>
 
-		<? include "include/footer.php";	?>
+		<?php include "include/footer.php";	?>
 	</body>
 </html>
 

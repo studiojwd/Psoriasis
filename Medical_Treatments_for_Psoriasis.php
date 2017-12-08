@@ -3,10 +3,10 @@
 	<head>
 	  <title>Psoriasis - Medical Treatments for Psoriasis</title>
 	  <meta name="psoriasis"></meta>
-		<? include "include/header.php";	?>
+		<?php include "include/header.php";	?>
 	</head>
 	<body>
-		<? include "include/top.php";	?>
+		<?php include "include/top.php";	?>
 			  <div class="left_col">
     <h1>Medical Treatments for psoriasis</h1>
     <h2>Medical treatments</h2>
@@ -57,19 +57,19 @@ Headaches, nausea, dizziness and other side effects</p>
       </div>
       <img src="/images/banner-left.png" class="left" />
       <div class="right-inside left">  
-        <? @include "products/body_care_kit.html"; ?>
-        <? @include "products/conditioner.html"; ?>
-        <? @include "products/shampoo.html"; ?>
-        <? @include "products/body_wash.html"; ?>
-        <? @include "products/hair_care_kit.html"; ?>
-        <? @include "products/maintenance_cream.html"; ?>
-        <? @include "products/scalp.html"; ?>
-        <? @include "products/serum.html"; ?>        
+        <?php include "products/body_care_kit.html"; ?>
+        <?php include "products/conditioner.html"; ?>
+        <?php include "products/shampoo.html"; ?>
+        <?php include "products/body_wash.html"; ?>
+        <?php include "products/hair_care_kit.html"; ?>
+        <?php include "products/maintenance_cream.html"; ?>
+        <?php include "products/scalp.html"; ?>
+        <?php include "products/serum.html"; ?>        
       </div>
       <img src="/images/banner-right.png" class="left" />
     </div>
   </div>
 
-		<? include "include/footer.php";	?>
+		<?php include "include/footer.php";	?>
 	</body>
 </html>

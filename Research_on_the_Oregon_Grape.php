@@ -3,10 +3,10 @@
 	<head>
 	  <title>Psoriasis - Research on the Oregon Grape</title>
 	  <meta name="psoriasis"></meta>
-		<? include "include/header.php";	?>
+		<?php include "include/header.php";	?>
 	</head>
 	<body>
-		<? include "include/top.php";	?>
+		<?php include "include/top.php";	?>
 			  <div class="left_col">
     <h1>Research on Oregon Grape Root Range</h1>
         <p>The Oregon Grape Root range has had two trials carried out on it. These are not medicinal trials but trials to establish that they are suitable for use on people prone to <strong><strong>psoriasis</strong></strong> and that the products perform as per their design.</p>
@@ -23,13 +23,13 @@
       </div>
       <img src="/images/banner-left.png" class="left" />
       <div class="right-inside left">  
-        <? @include "products/body_wash.html"; ?>
-        <? @include "products/hair_care_kit.html"; ?>
+        <?php @include "products/body_wash.html"; ?>
+        <?php @include "products/hair_care_kit.html"; ?>
       </div>
       <img src="/images/banner-right.png" class="left" />
     </div>
   </div>
 
-		<? include "include/footer.php";	?>
+		<?php include "include/footer.php";	?>
 	</body>
 </html>

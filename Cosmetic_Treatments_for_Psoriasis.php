@@ -3,10 +3,10 @@
 	<head>
 	  <title>Psoriasis - Cosmetic Treatments for Psoriasis</title>
 	  <meta name="psoriasis"></meta>
-		<? include "include/header.php";	?>
+		<?php include "include/header.php";	?>
 	</head>
 	<body>
-		<? include "include/top.php";	?>
+		<?php include "include/top.php";	?>
 			  <div class="left_col">
     <h1>Cosmetic Treatments for psoriasis</h1>
     <p>These are non medical products designed to be used on skin which has or is prone to <strong>psoriasis</strong>.  </p>
@@ -35,14 +35,14 @@ They can moisturise the skin, reduce redness caused by over sensitivity and help
       </div>
       <img src="/images/banner-left.png" class="left" />
       <div class="right-inside left">  
-        <? @include "products/maintenance_cream.html"; ?>
-        <? @include "products/scalp.html"; ?>
-        <? @include "products/serum.html"; ?>        
+        <?php @include "products/maintenance_cream.html"; ?>
+        <?php @include "products/scalp.html"; ?>
+        <?php @include "products/serum.html"; ?>        
       </div>
       <img src="/images/banner-right.png" class="left" />
     </div>
   </div>
 
-		<? include "include/footer.php";	?>
+		<?php include "include/footer.php";	?>
 	</body>
 </html>
